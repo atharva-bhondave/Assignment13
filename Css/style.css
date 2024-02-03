@@ -1,0 +1,22 @@
+.container{
+    height: 1000px;
+    width: 1500px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    height:800px;
+    width: 80%;
+    background-color: white;
+    
+}
+.dp{
+   height: 250px;
+   border-radius: 50%;
+   position: relative;
+   left:450px;
+   top:-80px
+}
