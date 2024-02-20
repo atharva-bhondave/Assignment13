@@ -1,32 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
-.container{
-    height: 1000px;
-    width: 1500px;
+body{
     background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 .main{
+    margin-top: 200px;
+    margin-left: 250px;
     height:800px;
-    width: 80%;
+    width: 1000px;
     background-color: white;
     display: flex;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .dp{
+    position: relative;
+    bottom: 290px;
    height: 250px;
    border-radius: 50%;
-   position: relative;
-   left:450px;
-   top:-80px
+   border:5px solid darkblue;
 }
 .Name{
+    position: relative;
+    bottom: 320px;
+    color: darkblue;
     font-family: 'Michroma', sans-serif;
     font-size: 70px;
-    position: relative;
-    top:115px;
-    left:200px;
+}
+.bio{
     
 }
