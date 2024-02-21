@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
     background-color: black;
 }
 .main{
     margin-top: 200px;
     margin-left: 150px;
-    height:2000px;
+    height:3000px;
     width: 1200px;
     background-color: white;
     display: flex;
@@ -15,39 +16,44 @@ body{
 }
 .dp{
     position: relative;
-    top: 200px;
+    top: 170px;
    height: 250px;
    border-radius: 50%;
    border:5px solid darkblue;
 }
 .Name{
     position: relative;
-    top: 180px;
+    top: 140px;
     color: darkblue;
     font-family: 'Michroma', sans-serif;
     font-size: 70px;
 }
 .h1{
+    
     padding-left: 10px;
     color:goldenrod;
     border-left: darkblue 5px solid;
 }
 .Overview{
     position: relative;
-    right: 295px;
+    right: 190px;
     top: 150px;
     font-size: 20px;
 }
 .Bio{
     position: relative;
-    left: 50px;
+    left: 0px;
     top: 180px;
     font-size: 20px;
 }
 .para{
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+  font-style: normal;
+    padding-left: 0px;
     font-size: 20px;
-    height: 900px;
-    width: 80%;
+    height: 1350px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -55,6 +61,7 @@ body{
 }
 .Quotes{
     position: relative;
-    top: 450px;
+    top: 140px;
+    left: 0px;
     font-size: 20px;
 }
