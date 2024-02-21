@@ -4,8 +4,8 @@ body{
 }
 .main{
     margin-top: 200px;
-    margin-left: 250px;
-    height:1500px;
+    margin-left: 150px;
+    height:2000px;
     width: 1200px;
     background-color: white;
     display: flex;
@@ -15,14 +15,14 @@ body{
 }
 .dp{
     position: relative;
-    bottom: 60px;
+    top: 200px;
    height: 250px;
    border-radius: 50%;
    border:5px solid darkblue;
 }
 .Name{
     position: relative;
-    bottom: 110px;
+    top: 180px;
     color: darkblue;
     font-family: 'Michroma', sans-serif;
     font-size: 70px;
@@ -35,19 +35,26 @@ body{
 .Overview{
     position: relative;
     right: 295px;
-    top: -140px;
+    top: 150px;
+    font-size: 20px;
 }
 .Bio{
     position: relative;
     left: 50px;
-    bottom: 130px;
+    top: 180px;
+    font-size: 20px;
 }
 .para{
+    font-size: 20px;
     height: 900px;
     width: 80%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    position: relative; 
+}
+.Quotes{
     position: relative;
-    
+    top: 450px;
+    font-size: 20px;
 }
