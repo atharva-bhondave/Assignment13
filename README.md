@@ -15,7 +15,3 @@ To view the Cristiano Ronaldo biography webpage, simply open the `index.html` fi
 ## Contributing
 
 Contributions to this project, such as improvements to the webpage layout, additional biography sections, or enhancements to the CSS styling, are welcome. To contribute, please fork the repository, make your changes, and submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
